@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <script>
+    <!-- <script>
         // increament
         var x = 5;
         x++;
@@ -18,13 +18,13 @@
         // decreament
         var x = 5;
         x--;
-        var z = x;
         document.write(z);
         document.write( '<br />' + '<br />' + x);
 
         // pre-increament
         var x = 5;
         ++x;
+        var z = x;
         var z = x;
         document.write(z);
         document.write( '<br />' + '<br />' + x);
@@ -35,7 +35,17 @@
         var z = x;
         document.write(z);
         document.write( '<br />' + '<br />' + x);
+    </script> -->
 
+    <script>
+        var num = parseInt(prompt("Enter number"));
+        for (var i = 2; i < num; i++) {
+            var result = num % i;
+            if (result == 0) {
+                alert(num + " " + "is not prime number!")
+                break;
+            }
+        }
     </script>
 </body>
 
