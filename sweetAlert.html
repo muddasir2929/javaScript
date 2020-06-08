@@ -18,12 +18,14 @@
             <button onclick="sweetalertclick()" type="button" class="btn btn-primary text-light">Try me!</button>
         </div>
 
-        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+       
         <script>
             function sweetalertclick() {
                 // swal("Here's the title!", "...and here's the text!");
                 // swal("Hello world!");
+            
                 swal("Good job!", "You have qualified to next level", "success");
+            }
                 // swal({
                 //     title: "Good job!",
                 //     text: "You clicked the button!",
@@ -36,27 +38,27 @@
                 //     icon: "success",
                 //     button: "Aww yiss!",
                 // });
-            }
+            
         </script>
     </div>
 
 
 
 
-    <!-- <div class="container">
+    <div class="container"> 
         <div class="row">
             <h1> Sweet box two</h1>
-            <button onclick="sweetalertclick()" type="button" class="btn btn-primary text-light">Click!</button>
+            <button onclick="secondsweetclick()" type="button" class="btn btn-primary text-light">Click!</button>
         </div>
 
         <script src="./node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
         <script>
-            function sweetalertclick() {
+            function secondsweetclick() {
                 Swal.fire('Oops...', 'Something went wrong!', 'error');                
             }
         </script>
-    </div> -->
-
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 
 </html>
