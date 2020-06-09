@@ -32,20 +32,76 @@
 // }
 
 // question # 4
-var remainingFuel;
-remainingFuel = prompt("How many liters of fuel are left?");
-if (remainingFuel < 0.25){
-    alert("Please refill the fuel in your car!");
-}
-else if (remainingFuel >= 0.25){
-    alert("you may have fuel shortage!");
-}
-else if (remainingFuel >= 2){
-        alert("You have enough fuel to drive!");
-}
-else if (remainingFuel == 4){
-    alert("You have surplus fuel in your car!");
-}
-else {
-    alert("You must check feul befor drive!");
-}
+// var remainingFuel;
+// remainingFuel = prompt("How many liters of fuel are left?");
+// if (remainingFuel < 0.25){
+//     alert("Please refill the fuel in your car!");
+// }
+// else if (remainingFuel >= 0.25){
+//     alert("you may have fuel shortage!");
+// }
+// else if (remainingFuel >= 2){
+//         alert("You have enough fuel to drive!");
+// }
+// else if (remainingFuel == 4){
+//     alert("You have surplus fuel in your car!");
+// }
+// else {
+//     alert("You must check feul befor drive!");
+// }
+
+// questio # 5 (a)
+// var a;
+// a = 4;
+// if (++a === 5){
+//     alert("given condition for variable a is true.")
+// }
+
+// questio # 5 (b)
+// var b; 
+// b = 82;
+// if (b++ === 83){
+//     alert("given condition for variable b is true")
+// }
+// else {
+//     alert("given condition for variable b is false.")
+// }
+
+// questio # 5 (c)
+// var c;
+// c = 12;
+// if (c++ === 13){
+//     alert("condition 1 is true");
+// }
+// if (c === 13){
+//     alert("condition 2 is true");
+// }
+// if (++c < 14){
+//     alert("contion 3 is true");
+// }
+// if (c === 14){
+//     alert("condition 4 is true");
+// }
+
+// questio # 5 (d)
+// var materialCost, laborCost, totalCost;
+// materialCost = 20000;
+// laborCost = 2000;
+// totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+//     alert("the cost equals");
+// }
+
+// questio # 5 (e)
+// if (true) {
+//     alert("True!");
+// }
+// if (false) {
+//     alert("False!");
+// }
+
+// questio # 5 (f)
+// if ("car" < "cat"){
+//     alert("car is smaller then cat");
+// }
+
