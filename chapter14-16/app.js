@@ -35,3 +35,4 @@
 
 alert("Hi");
 alert("hello world");
+alert("hello friend");
