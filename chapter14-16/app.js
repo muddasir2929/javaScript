@@ -33,16 +33,4 @@
 // var score = [320, 230, 480];
 // var totalScore = 500;
 
-// question # 9
-
-// question # 10
-
-// question # 11
-
-// question # 12
-
-// question # 13
-
-// question # 14
-
-// question # 15
+alert("Hi");
