@@ -34,3 +34,4 @@
 // var totalScore = 500;
 
 alert("Hi");
+alert("hello world");
