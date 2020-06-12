@@ -1,4 +1,25 @@
-// // <!-- question # 1 -->
+// <!-- question # 1 -->
+// var a = 10;
+// a++;
+// ++a;
+// --a;
+// a--;
+// console.log(a);
+
+// var a = 2, b = 1;
+// --a;
+// --b;
+// ++b;
+// b--;
+// console.log(a);
+// console.log(b);
+
+// var result = --a - --b + ++b + b--;
+// 1 - 0 + 1 + 1 = 3
+// console.log(result);
+
+        //    or
+
 // var a;
 // a = 10;
 // document.write("Result:" + '<br />' + "The value of a is:" + " " + " " + a);
