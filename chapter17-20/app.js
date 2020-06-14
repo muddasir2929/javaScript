@@ -22,33 +22,60 @@
 // question # 1
 // let activities = [];
 
+
+
+
+
 // chapter # 18
-var cleanestCities = ["multan", "lahore", "karachi", "islamabad", "peshawar"];
-if (citiesToCheck === cleanestCities[0]){
-    alert("it is one of the cleanest cities.");
-}
-else if (citiesToCheck === cleanestCities[1]){
-    alert("it is one of the cleanest cities.");
-}
-else if (citiesToCheck === cleanestCities[2]){
-    alert("it is one of the cleanest cities.");
-}
-else if (citiesToCheck === cleanestCities[3]){
-    alert("it is one of the cleanest cities.");
-} 
-else if (citiesToCheck === cleanestCities[4]){
-    alert("it is one of the cleanest cities.");
-}
-else {
-    alert("it is one of the cleanest cities.");
-}
+
+// var cleanestCities = ["multan", "lahore", "karachi", "islamabad", "peshawar"];
+// if (citiesToCheck === cleanestCities[0]){
+//     alert("it is one of the cleanest cities.");
+// }
+// else if (citiesToCheck === cleanestCities[1]){
+//     alert("it is one of the cleanest cities.");
+// }
+// else if (citiesToCheck === cleanestCities[2]){
+//     alert("it is one of the cleanest cities.");
+// }
+// else if (citiesToCheck === cleanestCities[3]){
+//     alert("it is one of the cleanest cities.");
+// } 
+// else if (citiesToCheck === cleanestCities[4]){
+//     alert("it is one of the cleanest cities.");
+// }
+// else {
+//     alert("it is one of the cleanest cities.");
+// }
 
 // alternative
-for (var i = 0; i <= 4; i++){
-    if (citiesToCheck === cleanestCities[i]){
-        alert("it is one of the cleanest cities of pakistan.");
-    }
-}
-else {
-    alert("it is not the cleanest cities of pakistan.");
-}
+
+// for (var i = 0; i <= 4; i++){
+//     if (citiesToCheck === cleanestCities[i]){
+//         alert("it is one of the cleanest cities of pakistan.");
+//     }
+// }
+// else {
+//     alert("it is not the cleanest cities of pakistan.");
+// }
+
+// chapter # 19
+// for (var step = 0; step < 5; step++){
+//     console.log("walking one step east");
+//     break;
+// }
+// var car = ["corola", "honda", "toyota", "mehran"]
+// var i;
+// for (i = 0; i < car.length; i++ ){
+//     text += car[i] + "<br>"
+// } 
+
+// chapter # 20
+// var firstNames = ["asad", "ahmed", "waqar", "ahad", "rameez"];
+// var lastNames = ["shafiq", "saeed", "hussain", "rashid", "jamshed"];
+// var fullNames = [];
+// for (var i = 0; i < firstNames.length; i++){
+//     for (var j = 0; j = lastNames.length; j++){
+//         fullNames.push(firstNames[i] + lastNames[j]);
+//     }
+// }
