@@ -19,6 +19,23 @@
 // alert(fullName);
 
 // question # 2
-var favouritMobile = prompt("enter your favourit mobile name");
-var myFavouritMobile = "My favourit mobile is: " + " " + favouritMobile;
-alert(myFavouritMobile);
+// var favouritMobile = prompt("enter your favourit mobile name");
+// var myFavouritMobile = "My favourit mobile is: " + " " + favouritMobile;
+// alert(myFavouritMobile);
+
+// question # 3
+// var str = "enter your first name in the input section of the alert window";
+// var n = str.indexOf("section");
+// alert(n);
+
+// question # 4
+// var str = "enter your first name in the input sectio of the alert window";
+// var n = str.lastIndexOf("window");
+// alert(n);
+
+// question # 5
+// var str = "enter your first name in the input sectio of the alert window";
+// var n = str.charAt("47");
+// alert(n);
+
+
