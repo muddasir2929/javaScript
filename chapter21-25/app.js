@@ -38,4 +38,26 @@
 // var n = str.charAt("47");
 // alert(n);
 
+// question # 6
+// var firstName = ["Muhammad"];
+// var lastName = ["Muddasir"];
+// var fullName = firstName.concat(lastName);
+// alert(fullName);
 
+// question # 7
+// var cityName = "Hyderabad";
+// var capitalName = cityName.replace("Hyder", "Islam");
+// alert(capitalName);
+
+// var firstName = "ahmed ashfaq";
+// var secondName = firstName.replace("ahmed", "asad");
+// alert(secondName);
+
+// question # 8
+var message = "Ali and Sami are best friends. They play cricket and football together.";
+var finalMessage = message.replace(/and/g, "&");
+alert(finalMessage);
+
+// var str = "Mr Blue has blue house and blue car.";
+// var res = str.replace(/blue/g, "red");
+// alert(res);
