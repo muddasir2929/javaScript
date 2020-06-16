@@ -4,10 +4,10 @@
 
 // for (var i=0; i<=arr.length; i++){
 //     if (arr[i] === city){
-//         alert("match city found");
+//         alert("test city found");
 //     }
 //     else{
-//         alert("match city not found");
+//         alert("test city not found");
 //     }
 //     break;
 // }
@@ -73,6 +73,37 @@
 // alert(res);
 
 // question # 11
-var str = "javascript!";
-var res = str.charAt(0).toUpperCase() + str.substr(1).toLowerCase();
-alert(res);
+// var str = "javascript!";
+// var res = str.charAt(0).toUpperCase() + str.substr(1).toLowerCase();
+// alert(res);
+
+// question # 12
+// var num = 123;
+// var str = Number(num);
+// alert(str);
+
+// question # 13
+// var input = prompt("please enter username.");
+// var symble = ["@", "$", "!"];
+// for (var i=0; i<=symble.length; i++) {
+//     if (symble[i] === input){
+//         alert("Please enter valid username!")
+//     }
+//     else {
+//         alert("thanks for your kind response!")
+//     }
+//     break; 
+// }
+
+// question # 14
+var input = prompt("Welcome to ABC Bakery, what do you want to order Sir/Mam?");
+var symble = ["cake", "apple", "cookie", "chips", "patties"];
+for (var i = 0; i < symble.length; i++) {
+    if (symble[i] === input) {
+        alert(symble + " " + "is available in our bakery")
+    }
+}
+else {
+    alert("thanks for your kind response!")
+}
+break;
