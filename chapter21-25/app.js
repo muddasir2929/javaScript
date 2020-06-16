@@ -54,10 +54,25 @@
 // alert(secondName);
 
 // question # 8
-var message = "Ali and Sami are best friends. They play cricket and football together.";
-var finalMessage = message.replace(/and/g, "&");
-alert(finalMessage);
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
+// var finalMessage = message.replace(/and/g, "&");
+// alert(finalMessage);
 
 // var str = "Mr Blue has blue house and blue car.";
 // var res = str.replace(/blue/g, "red");
 // alert(res);
+
+// question # 9
+// var str = "472";
+// var num = parseInt(str);
+// alert(num);
+
+// question # 10
+// var str = "hello world";
+// var res = str.toUpperCase();
+// alert(res);
+
+// question # 11
+var str = "javascript!";
+var res = str.charAt(0).toUpperCase() + str.substr(1).toLowerCase();
+alert(res);
