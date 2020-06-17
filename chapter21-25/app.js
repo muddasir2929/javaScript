@@ -83,27 +83,32 @@
 // alert(str);
 
 // question # 13
-// var input = prompt("please enter username.");
-// var symble = ["@", "$", "!"];
-// for (var i=0; i<=symble.length; i++) {
-//     if (symble[i] === input){
-//         alert("Please enter valid username!")
+// var str = prompt("Enter some text");
+// var numChars = str.length;
+// for (var i=0; i<numChars; i++){
+//     if (str.slice(i, i+2) === "@"){
+//         alert("Please enter valid username!");
 //     }
-//     else {
-//         alert("thanks for your kind response!")
-//     }
-//     break; 
 // }
 
 // question # 14
-var input = prompt("Welcome to ABC Bakery, what do you want to order Sir/Mam?");
-var symble = ["cake", "apple", "cookie", "chips", "patties"];
-for (var i = 0; i < symble.length; i++) {
-    if (symble[i] === input) {
-        alert(symble + " " + "is available in our bakery")
-    }
-}
-else {
-    alert("thanks for your kind response!")
-}
-break;
+// var str = prompt("Enter some text");
+// var numChar = str.length;
+// var arr = ["cake", "apple", "cookie", "chips", "patties"];
+// for (var i = 0; i < str.length; i++) {
+// }
+
+// var text = "the new york magzine does not allow the pharas world war 02. it should be"
+// for (var i = 0; i < text.length; i++) {
+//     if (text.slice(i, i + 12) === "world war 02") {
+//         text = text.slice(0, i) + "the second world war" + text.slice(i + 12);
+//         console.log(text);
+//     }
+// }
+
+var text = "the new york magzine does not allow the pharas world war 02. it should be"
+var indexNum = text.indexOf("world war 02");
+var firstText = text.slice(0, indexNum);
+var replacingText = "the second world war";
+var thirdText = text.slice(indexNum + 12);
+console.log(firstText + replacingText + thirdText);
