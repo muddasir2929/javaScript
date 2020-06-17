@@ -113,9 +113,52 @@
 // var thirdText = text.slice(indexNum + 12);
 // console.log(firstText + replacingText + thirdText);
 
-var text = "the new york magzine does not allow the pharas world war 02. it should be"
-var indexNum = text.indexOf("new");
-var firstName = text.slice(0, indexNum);
-var replacingText = "modern city of new york";
-var thirdText = text.slice(indexNum + 8);
-console.log(firstName + replacingText + thirdText);
+// var text = "the new york magzine does not allow the pharas world war 02. it should be"
+// var indexNum = text.indexOf("new");
+// var firstName = text.slice(0, indexNum);
+// var replacingText = "modern city of new york";
+// var thirdText = text.slice(indexNum + 8);
+// console.log(firstName + replacingText + thirdText);
+
+// var firstName = "muhammad";
+// var firstChar = firstName.slice(0, 1); slice method
+// var firstChar = firstName.charAt(0); charAt method
+// var firstChar = firstName.indexOf("a"); finding index number of a string
+// var lastChar = firstName.charAt(firstName.length -1)
+// console.log(lastChar);
+
+// var val1 = prompt("enter your first value:");
+// var signOf = prompt("enter your operator:");
+// var val2 = prompt("enter your second value:");
+// console.log(val1 + signOf + val2);
+// if (signOf === "+"){
+//     alert( "The answer is: " + val1+val2);
+// }
+// else if (signOf === "-"){
+//     alert( "The answer is: " + val1-val2);
+// }
+// else if (signOf === "*"){
+//     alert( "The answer is: " + val1*val2);
+// }
+// else if (signOf === "/"){
+//     alert( "The answer is: " + val1/val2);
+// }
+// else if (signOf === "%"){
+//     alert("The answer is: " + ([val1/val2]*100) + "%");
+// }
+
+
+// question # 16
+// var university = "university of karachi";
+// var arr = university.split(" ");
+// alert(arr);
+
+// question # 17
+// var username = prompt("enter username");
+// var firstText = username.charAt(username.length -1);
+// alert( "The last character of username is " + " " + firstText);
+
+// question # 18
+// var str = "the quick brown fox jump over the lazy dog.";
+// var countNum = (str.match(/the/g)).length;
+// alert(countNum);
