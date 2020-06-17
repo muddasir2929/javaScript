@@ -106,9 +106,16 @@
 //     }
 // }
 
+// var text = "the new york magzine does not allow the pharas world war 02. it should be"
+// var indexNum = text.indexOf("world war 02");
+// var firstText = text.slice(0, indexNum);
+// var replacingText = "the second world war";
+// var thirdText = text.slice(indexNum + 12);
+// console.log(firstText + replacingText + thirdText);
+
 var text = "the new york magzine does not allow the pharas world war 02. it should be"
-var indexNum = text.indexOf("world war 02");
-var firstText = text.slice(0, indexNum);
-var replacingText = "the second world war";
-var thirdText = text.slice(indexNum + 12);
-console.log(firstText + replacingText + thirdText);
+var indexNum = text.indexOf("new");
+var firstName = text.slice(0, indexNum);
+var replacingText = "modern city of new york";
+var thirdText = text.slice(indexNum + 8);
+console.log(firstName + replacingText + thirdText);
