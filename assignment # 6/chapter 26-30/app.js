@@ -70,3 +70,19 @@
 // console.log(floorDecimal);\
 
 // question # 7
+// (a) 
+var userInput = parseInt(prompt("enter your weight"));
+var y = Math.abs(userInput);
+alert(y + "kg");
+
+// question # 8 number guessing game
+// var guessNum = prompt("Guess Number!");
+// var x = Math.random();
+// var floorValue = Math.floor((x) * 10) + 1;
+// if (guessNum == floorValue) {
+//     alert("Congratulation! You Guessed Right Number!");
+// }
+// else {
+//     alert("Try again!")
+// }
+
