@@ -71,11 +71,31 @@
 
 // question # 7
 // (a) 
-var userInput = parseInt(prompt("enter your weight"));
-var y = Math.abs(userInput);
-alert(y + "kg");
+// var userInput = parseInt(prompt("enter your weight in kilograms"));
+// var y = Math.abs(userInput);
+// alert(y);
 
-// question # 8 number guessing game
+// (b)
+// var userInput = parseInt(prompt("enter your weight in kilograms"));
+// var y = Math.floor(userInput);
+// alert(y + "kgs");
+
+// (c)
+// var userInput = parseInt(prompt("enter your weight in kilograms"));
+// var y = Math.round(userInput);
+// alert(y + "kgs");
+
+// (d)
+// var userInput = parseInt(prompt("enter your weight in kilograms"));
+// var y = Math.ceil(userInput);
+// alert(y + "kilograms");
+
+
+
+
+// question # 8 
+// number guessing game
+
 // var guessNum = prompt("Guess Number!");
 // var x = Math.random();
 // var floorValue = Math.floor((x) * 10) + 1;
