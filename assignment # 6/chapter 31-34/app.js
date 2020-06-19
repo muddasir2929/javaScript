@@ -64,3 +64,37 @@
 // else {
 //     alert("It's PM");
 // }
+
+
+
+// question # 8
+// var d = new Date();
+// d.setFullYear(2020);
+// d.setMonth(11);
+// d.setDate(31);
+// d.setHours(00);
+// d.setMinutes(00);
+// d.setSeconds(00);
+// d.setMilliseconds(000);
+// alert("Later Date: " + d);
+
+
+// question # 9
+// var doRam = new Date(prompt("Enter 1st Ramadan Date", "Jan 1, 1970" ));
+// doRamMilli = doRam.getTime();
+// today = new Date();
+// todayMilli = today.getTime();
+// diff = todayMilli - doRamMilli;
+// accTime = Math.floor(diff/(1000*3600*24));
+// alert(accTime + " " + "days have passed since 1st Ramadan, 2020.");
+
+// question # 10
+var reffDate = new Date(prompt("Enter 1st Refference Date: "));
+var reffMilli = reffDate.getTime();
+var reffDateInSec = Math.floor(reffMilli/(1000*60));
+
+var startDate = new Date(prompt("Enter start Date of the year: "));
+var startMilli = startDate.getTime();
+var startDateInSec = Math.floor(startMilli/(1000*60));
+var finalResult = reffDateInSec - startDateInSec;
+alert(finalResult);
