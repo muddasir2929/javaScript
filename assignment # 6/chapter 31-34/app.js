@@ -40,3 +40,27 @@
 // }
 
 // question # 5
+// var now = new Date();
+// var theDate = now.getDate();
+// if (theDate < 16){
+//     alert("First fifteen days of the month.");
+// }
+// else {
+//     alert("last days of the month.");
+// }
+
+// question # 6
+// var now = new Date();
+// var millisince = now.getTime();
+// alert("Elapsed millisecond since 1 january, 1970: " + millisince);
+// alert("Elapsed minutes since 1 january, 1970: " + (millisince)/(1000*60));
+
+// question # 7
+// var dt = new Date();
+// var hourDayTime = dt.getHours();
+// if (hourDayTime < 12){
+//     alert("It's AM");
+// }
+// else {
+//     alert("It's PM");
+// }
