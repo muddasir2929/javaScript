@@ -62,15 +62,29 @@
 // alert(result4);
 
 // question # 5
-
+// function sqFunc(x){
+//     return x * x
+// }
+// var result = sqFunc(4);
+// alert(result);
 
 
 // question # 6
-
-
+// function factorial(n) {
+//     return (n != 1) ? n * factorial(n - 1) : 1;
+// }
+// alert(factorial(5));
 
 // question # 7
-
+// function range(start, end) {
+//     var ans = [];
+//     for (let i = start; i <= end; i++) {
+//         ans.push(i);
+//     }
+//     return ans;
+// }
+// var result = range(5, 25);
+// alert(result);
 
 
 // question # 8
