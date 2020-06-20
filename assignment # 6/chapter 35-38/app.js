@@ -24,18 +24,42 @@
 // userName();
 
 // question # 3
-function sumNum(){
-    var a = parseInt(prompt("enter first number: "));
-    var b = parseInt(prompt("enter second number: "));
-    var c = a + b;
-    alert(c);
-}
-sumNum();
+// function sumNum(){
+//     var a = parseInt(prompt("enter first number: "));
+//     var b = parseInt(prompt("enter second number: "));
+//     var c = a + b;
+//     alert(c);
+// }
+// sumNum();
 
 
 // question # 4
+// function calc(num1,opr,num2){
+//     if (opr === "+"){
+//         return num1 + num2
+//     }
+//     else if (opr === "-" ){
+//         return num1 - num2
+//     }
+//     else if (opr === "*"){
+//         return num1 * num2
+//     }
+//     else if (opr === "/"){
+//         return num1 / num2
+//     }
+//     else {
+//         return "incorrect operator!"
+//     }
+// }
+// var result = calc(5, "+", 3);
+// var result2 = calc(5, "-", 3);
+// var result3 = calc(5, "*", 3);
+// var result4 = calc(6, "/", 3);
 
-
+// alert(result);
+// alert(result2);
+// alert(result3);
+// alert(result4);
 
 // question # 5
 
