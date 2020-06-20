@@ -5,8 +5,7 @@
 // }
 // displayTime();
 
-
-
+// <optional>
 // function tellTime(){
 //     var now = new Date();
 //     var theHr = now.getHours();
@@ -16,11 +15,22 @@
 // tellTime();
 
 // question # 2
-
-
+// function userName(){
+//     var firstName = "Muhammad ";
+//     var secondName = "Muddasir ";
+//     var fullName = firstName + secondName;
+//     alert("Hi" + " " + fullName);
+// }
+// userName();
 
 // question # 3
-
+function sumNum(){
+    var a = parseInt(prompt("enter first number: "));
+    var b = parseInt(prompt("enter second number: "));
+    var c = a + b;
+    alert(c);
+}
+sumNum();
 
 
 // question # 4
