@@ -128,7 +128,13 @@
 
 
 // question # 11
-
+// function capitalize_Words(str) {
+//     return str.replace(/\w\S*/g, function (txt) {
+//         return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+//     });
+// }
+// var result = (capitalize_Words("the quick brown fox"));
+// alert(result);
 
 
 // question # 12
