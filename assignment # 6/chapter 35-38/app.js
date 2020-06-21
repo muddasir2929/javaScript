@@ -88,15 +88,43 @@
 
 
 // question # 8
-
+// function pythagorean(sideA, sideB) {
+//     return Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2));
+// }
+// alert(pythagorean(8, 6));
 
 
 // question # 9
+// function myFunction() {
+//     var length = prompt("Enter a whole number for the length of your rectangle.");
+//     var width = prompt("Enter a whole number for the width of your rectangle.");
+//     var depth = prompt("Enter a whole number for the depth of your rectangle prism");
 
+//     var perimeter = (2 * length) + (2 * width);
+//     var area = length * width;
+//     var volume = length * width * depth;
 
+//     return "Area of rectangle:" + area
+//     return "Area of rectangle:" + perimeter
+//     return "Area of rectangle:" + volume
+// }
+// var result = myFunction();
+// alert(result);
 
 // question # 10
-
+// function palindrome(str) {
+//     var re = /[^A-Za-z0-9]/g;
+//     str = str.toLowerCase().replace(re, '');
+//     var len = str.length;
+//     for (var i = 0; i < len/2; i++) {
+//       if (str[i] !== str[len - 1 - i]) {
+//           return false;
+//       }
+//     }
+//     return true;
+//    }
+//    var result = palindrome("madam");
+//    alert(result);
 
 
 // question # 11
