@@ -27,10 +27,22 @@
 // function sumNum(){
 //     var a = parseInt(prompt("enter first number: "));
 //     var b = parseInt(prompt("enter second number: "));
-//     var c = a + b;
-//     alert(c);
+//     return a + b
 // }
-// sumNum();
+// var result = sumNum();
+// alert(result);
+
+// question # 3
+// function calc(num1,opr,num2){
+//     if (opr === "+"){
+//         return num1 + num2
+//     }
+//     else {
+//         return "incorrect operator!"
+//     }
+// }
+// var result = calc(5, "+", 3);
+// alert(result);
 
 
 // question # 4
@@ -138,6 +150,38 @@
 
 
 // question # 12
+// function findLongestWord(str) {
+//     var strSplit = str.split(' ');
+//     var longestWord = 0;
+//     for(var i = 0; i < strSplit.length; i++){
+//       if(strSplit[i].length > longestWord){
+//       longestWord = strSplit[i].length;
+//        }
+//     }
+//     return longestWord;
+//   }
+//   var result = findLongestWord("web development tutorial");
+//   alert(result);
+
+// alernative solution
+
+// function findLongestWord(str) {
+//     var longestWord = str.split(' ').sort(function (a, b) { return b.length - a.length; });
+//     return longestWord[0].length;
+// }
+// var result = findLongestWord("web development tutorial");
+// alert(result);
+
+// alternative solution
+
+// function findLongestWord(str) {
+//     var longestWord = str.split(' ').reduce(function (longest, currentWord) {
+//         return currentWord.length > longest.length ? currentWord : longest;
+//     }, "");
+//     return longestWord.length;
+// }
+// var result = findLongestWord("web development tutorial");
+// alert(result);
 
 // question # 13
 
