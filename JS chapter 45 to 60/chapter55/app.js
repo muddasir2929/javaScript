@@ -14,6 +14,6 @@
 //     document.getElementById("div9").style.visibility = "hidden";
 // }
 
-function centerImg(){
-    document.getElementById("pic99").style.margin = "0 auto;"
-}
+// function centerImg(){
+//     document.getElementById("pic99").style.margin = "0 auto;"
+// }
